@@ -1,0 +1,210 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOP28P65_970X640X120L60X24T483X275N">
+<wire x1="2.15" y1="4.7244" x2="2.2" y2="4.85" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-4.7244" x2="-2.2" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-4.85" x2="2.15" y2="-4.85" width="0.2" layer="21"/>
+<wire x1="2.15" y1="-4.85" x2="2.15" y2="-4.7244" width="0.2" layer="21"/>
+<wire x1="2.2" y1="4.85" x2="0.3048" y2="4.85" width="0.2" layer="21"/>
+<wire x1="0.3048" y1="4.85" x2="-0.3048" y2="4.85" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="4.85" x2="-2.2" y2="4.85" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="4.85" x2="-2.2" y2="4.7244" width="0.2" layer="21"/>
+<wire x1="0.3048" y1="4.85" x2="-0.3048" y2="4.85" width="0.2" layer="21" curve="-180"/>
+<wire x1="-2.2" y1="-4.85" x2="2.15" y2="-4.85" width="0.1524" layer="51"/>
+<wire x1="2.15" y1="-4.85" x2="2.2" y2="4.85" width="0.1524" layer="51"/>
+<wire x1="2.2" y1="4.85" x2="0.3048" y2="4.85" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="4.85" x2="-0.3048" y2="4.85" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="4.85" x2="-2.2" y2="4.85" width="0.1524" layer="51"/>
+<wire x1="-2.2" y1="4.85" x2="-2.2" y2="-4.85" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="4.85" x2="-0.3048" y2="4.85" width="0.127" layer="51" curve="-180"/>
+<circle x="-4.184" y="4.531" radius="0.127" width="0.3" layer="21"/>
+<wire x1="-3.705" y1="5.1" x2="3.705" y2="5.1" width="0.05" layer="39"/>
+<wire x1="3.705" y1="5.1" x2="3.705" y2="-5.1" width="0.05" layer="39"/>
+<wire x1="3.705" y1="-5.1" x2="-3.705" y2="-5.1" width="0.05" layer="39"/>
+<wire x1="-3.705" y1="-5.1" x2="-3.705" y2="5.1" width="0.05" layer="39"/>
+<text x="-3.81402" y="5.08536" size="1.27134" layer="25">&gt;NAME</text>
+<text x="-3.81553" y="-6.35923" size="1.27185" layer="27">&gt;VALUE</text>
+<rectangle x1="0.170452" y1="0.170452" x2="1.04" y2="2.08" layer="31"/>
+<rectangle x1="0.170265" y1="-2.08324" x2="1.04" y2="-0.17" layer="31"/>
+<rectangle x1="-1.04266" y1="-2.08532" x2="-0.17" y2="-0.17" layer="31" rot="R180"/>
+<rectangle x1="-1.04161" y1="0.170263" x2="-0.17" y2="2.08" layer="31" rot="R180"/>
+<smd name="1" x="-2.82" y="4.225" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="2" x="-2.82" y="3.575" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="3" x="-2.82" y="2.925" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="4" x="-2.82" y="2.275" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="5" x="-2.82" y="1.625" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="6" x="-2.82" y="0.975" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="7" x="-2.82" y="0.325" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="8" x="-2.82" y="-0.325" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="9" x="-2.82" y="-0.975" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="10" x="-2.82" y="-1.625" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="11" x="-2.82" y="-2.275" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="12" x="-2.82" y="-2.925" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="13" x="-2.82" y="-3.575" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="14" x="-2.82" y="-4.225" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="15" x="2.82" y="-4.225" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="16" x="2.82" y="-3.575" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="17" x="2.82" y="-2.925" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="18" x="2.82" y="-2.275" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="19" x="2.82" y="-1.625" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="20" x="2.82" y="-0.975" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="21" x="2.82" y="-0.325" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="22" x="2.82" y="0.325" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="23" x="2.82" y="0.975" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="24" x="2.82" y="1.625" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="25" x="2.82" y="2.275" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="26" x="2.82" y="2.925" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="27" x="2.82" y="3.575" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="28" x="2.82" y="4.225" dx="1.37" dy="0.39" layer="1" roundness="54"/>
+<smd name="29" x="0" y="0" dx="2.75" dy="4.83" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DRV8313PWP">
+<wire x1="-12.7" y1="30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
+<text x="-12.7374" y="31.0792" size="1.68133" layer="95">&gt;NAME</text>
+<text x="-12.7426" y="-33.1308" size="1.68203" layer="96">&gt;VALUE</text>
+<pin name="CPL" x="17.78" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="CPH" x="17.78" y="25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCP" x="17.78" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="VM1" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT1" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="PGND1" x="17.78" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="PGND2" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT2" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="OUT3" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="PGND3" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VM2" x="17.78" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="COMPP" x="17.78" y="-17.78" length="middle" direction="in" rot="R180"/>
+<pin name="COMPN" x="17.78" y="-20.32" length="middle" direction="in" rot="R180"/>
+<pin name="GND" x="17.78" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="V3P3" x="17.78" y="22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="NRESET" x="-17.78" y="2.54" length="middle" direction="in"/>
+<pin name="NSLEEP" x="-17.78" y="5.08" length="middle" direction="in"/>
+<pin name="NFAULT" x="-17.78" y="7.62" length="middle" direction="oc"/>
+<pin name="NCOMPO" x="-17.78" y="-7.62" length="middle" direction="oc"/>
+<pin name="NC" x="-17.78" y="-12.7" length="middle" direction="nc"/>
+<pin name="EN3" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="IN3" x="-17.78" y="22.86" length="middle" direction="in"/>
+<pin name="EN2" x="-17.78" y="15.24" length="middle" direction="in"/>
+<pin name="IN2" x="-17.78" y="25.4" length="middle" direction="in"/>
+<pin name="EN1" x="-17.78" y="17.78" length="middle" direction="in"/>
+<pin name="IN1" x="-17.78" y="27.94" length="middle" direction="in"/>
+<pin name="TH_PAD" x="17.78" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DRV8313PWP" prefix="U">
+<description>2.5A Three Phase Brushless DC Motor Driver (PWM Ctrl) 28-HTSSOP -40 to 85</description>
+<gates>
+<gate name="G$1" symbol="DRV8313PWP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOP28P65_970X640X120L60X24T483X275N">
+<connects>
+<connect gate="G$1" pin="COMPN" pad="13"/>
+<connect gate="G$1" pin="COMPP" pad="12"/>
+<connect gate="G$1" pin="CPH" pad="2"/>
+<connect gate="G$1" pin="CPL" pad="1"/>
+<connect gate="G$1" pin="EN1" pad="26"/>
+<connect gate="G$1" pin="EN2" pad="24"/>
+<connect gate="G$1" pin="EN3" pad="22"/>
+<connect gate="G$1" pin="GND" pad="14 20 28"/>
+<connect gate="G$1" pin="IN1" pad="27"/>
+<connect gate="G$1" pin="IN2" pad="25"/>
+<connect gate="G$1" pin="IN3" pad="23"/>
+<connect gate="G$1" pin="NC" pad="21"/>
+<connect gate="G$1" pin="NCOMPO" pad="19"/>
+<connect gate="G$1" pin="NFAULT" pad="18"/>
+<connect gate="G$1" pin="NRESET" pad="16"/>
+<connect gate="G$1" pin="NSLEEP" pad="17"/>
+<connect gate="G$1" pin="OUT1" pad="5"/>
+<connect gate="G$1" pin="OUT2" pad="8"/>
+<connect gate="G$1" pin="OUT3" pad="9"/>
+<connect gate="G$1" pin="PGND1" pad="6"/>
+<connect gate="G$1" pin="PGND2" pad="7"/>
+<connect gate="G$1" pin="PGND3" pad="10"/>
+<connect gate="G$1" pin="TH_PAD" pad="29"/>
+<connect gate="G$1" pin="V3P3" pad="15"/>
+<connect gate="G$1" pin="VCP" pad="3"/>
+<connect gate="G$1" pin="VM1" pad="4"/>
+<connect gate="G$1" pin="VM2" pad="11"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="Description" value="
+2.5A Three Phase Brushless DC Motor Driver _PWM Ctrl_ 28-HTSSOP -40 to 85
+"/>
+<attribute name="Digi-Key_Purchase_URL" value="https://www.digikey.com.cn/product-detail/zh/texas-instruments/DRV8313PWP/296-35540-5-ND/3790947?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="Package" value="HTSSOP-28 Texas Instruments"/>
+<attribute name="Digi-Key_Part_Number" value="296-35540-5-ND"/>
+<attribute name="MP" value="DRV8313PWP"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
