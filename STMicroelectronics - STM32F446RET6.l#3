@@ -132,6 +132,10 @@ Created by Upverter.com</description>
 <wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="-7.085" y1="-7.085" x2="-7.085" y2="7.085" width="0.1" layer="41"/>
+<wire x1="-7.085" y1="7.085" x2="7.085" y2="7.085" width="0.1" layer="41"/>
+<wire x1="7.085" y1="7.085" x2="7.085" y2="-7.085" width="0.1" layer="41"/>
+<wire x1="7.085" y1="-7.085" x2="-7.085" y2="-7.085" width="0.1" layer="41"/>
 <text x="-6.96" y="7.335" size="1" layer="25">&gt;NAME</text>
 <circle x="-5.691" y="4.46" radius="0.25" width="0" layer="21"/>
 <circle x="-3.4" y="3.4" radius="0.5" width="0" layer="21"/>
@@ -210,6 +214,10 @@ Created by Upverter.com</description>
 <wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="-6.635" y1="-6.635" x2="-6.635" y2="6.635" width="0.1" layer="41"/>
+<wire x1="-6.635" y1="6.635" x2="6.635" y2="6.635" width="0.1" layer="41"/>
+<wire x1="6.635" y1="6.635" x2="6.635" y2="-6.635" width="0.1" layer="41"/>
+<wire x1="6.635" y1="-6.635" x2="-6.635" y2="-6.635" width="0.1" layer="41"/>
 <text x="-6.885" y="7.085" size="1" layer="25">&gt;NAME</text>
 <circle x="-5.641" y="4.46" radius="0.25" width="0" layer="21"/>
 <circle x="-3.4" y="3.4" radius="0.5" width="0" layer="21"/>
@@ -288,6 +296,10 @@ Created by Upverter.com</description>
 <wire x1="-4.25" y1="4.25" x2="4.25" y2="4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="4.25" x2="4.25" y2="-4.25" width="0.15" layer="21"/>
 <wire x1="4.25" y1="-4.25" x2="-4.25" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="-6.285" y1="-6.285" x2="-6.285" y2="6.285" width="0.1" layer="41"/>
+<wire x1="-6.285" y1="6.285" x2="6.285" y2="6.285" width="0.1" layer="41"/>
+<wire x1="6.285" y1="6.285" x2="6.285" y2="-6.285" width="0.1" layer="41"/>
+<wire x1="6.285" y1="-6.285" x2="-6.285" y2="-6.285" width="0.1" layer="41"/>
 <text x="-6.385" y="6.585" size="1" layer="25">&gt;NAME</text>
 <circle x="-5.591" y="4.46" radius="0.25" width="0" layer="21"/>
 <circle x="-3.4" y="3.4" radius="0.5" width="0" layer="21"/>

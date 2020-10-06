@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="STMICROELECTRONICS_STM32F446RET6_0">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="51" y2="5.0" width="0.15" x2="-5.0" y1="-5.0" x1="-5.0"/>
+                    <wire layer="51" y2="5.0" width="0.15" x2="5.0" y1="5.0" x1="-5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="5.0" y1="5.0" x1="5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="-5.0" y1="-5.0" x1="5.0"/>
+                    <wire layer="21" y2="5.0" width="0.15" x2="-4.275" y1="5.0" x1="-5.0"/>
+                    <wire layer="21" y2="5.0" width="0.15" x2="5.0" y1="5.0" x1="4.275"/>
+                    <wire layer="21" y2="-4.275" width="0.15" x2="5.0" y1="-5.0" x1="5.0"/>
+                    <wire layer="21" y2="5.0" width="0.15" x2="5.0" y1="4.275" x1="5.0"/>
+                    <wire layer="21" y2="-5.0" width="0.15" x2="-4.275" y1="-5.0" x1="-5.0"/>
+                    <wire layer="21" y2="-5.0" width="0.15" x2="5.0" y1="-5.0" x1="4.275"/>
+                    <wire layer="21" y2="-4.275" width="0.15" x2="-5.0" y1="-5.0" x1="-5.0"/>
+                    <wire layer="21" y2="5.0" width="0.15" x2="-5.0" y1="4.275" x1="-5.0"/>
+                    <wire layer="41" y2="6.45" width="0.1" x2="-6.45" y1="-6.45" x1="-6.45"/>
+                    <wire layer="41" y2="6.45" width="0.1" x2="6.45" y1="6.45" x1="-6.45"/>
+                    <wire layer="41" y2="-6.45" width="0.1" x2="6.45" y1="6.45" x1="6.45"/>
+                    <wire layer="41" y2="-6.45" width="0.1" x2="-6.45" y1="-6.45" x1="6.45"/>
+                    <text layer="25" align="bottom-left" y="6.575" x="-5.325" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="3.725" x="-6.85" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.2" dy="0.3" y="3.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="1.2" dy="0.3" y="3.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="0" dx="1.2" dy="0.3" y="2.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="0" dx="1.2" dy="0.3" y="2.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="0" dx="1.2" dy="0.3" y="1.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="0" dx="1.2" dy="0.3" y="1.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="0" dx="1.2" dy="0.3" y="0.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="0" dx="1.2" dy="0.3" y="0.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-0.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-0.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-1.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-1.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-2.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-2.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-3.25" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-3.75" x="-5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-3.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-3.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-2.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-2.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-1.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-1.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-0.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="0" dx="1.2" dy="0.3" y="-0.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="0" dx="1.2" dy="0.3" y="0.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="0" dx="1.2" dy="0.3" y="0.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="0" dx="1.2" dy="0.3" y="1.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="0" dx="1.2" dy="0.3" y="1.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="0" dx="1.2" dy="0.3" y="2.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="0" dx="1.2" dy="0.3" y="2.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="0" dx="1.2" dy="0.3" y="3.25" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="0" dx="1.2" dy="0.3" y="3.75" x="5.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="0" dx="0.3" dy="1.2" y="-5.75" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="0" dx="0.3" dy="1.2" y="5.75" x="-3.75" rot="R0" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F446RET6_1">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="51" y2="5.0" width="0.15" x2="-5.0" y1="-5.0" x1="-5.0"/>
+                    <wire layer="51" y2="5.0" width="0.15" x2="5.0" y1="5.0" x1="-5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="5.0" y1="5.0" x1="5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="-5.0" y1="-5.0" x1="5.0"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="-4.25" y1="-4.25" x1="-4.25"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="4.25" y1="4.25" x1="-4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="4.25" y1="4.25" x1="4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="-4.25" y1="-4.25" x1="4.25"/>
+                    <wire layer="41" y2="7.085" width="0.1" x2="-7.085" y1="-7.085" x1="-7.085"/>
+                    <wire layer="41" y2="7.085" width="0.1" x2="7.085" y1="7.085" x1="-7.085"/>
+                    <wire layer="41" y2="-7.085" width="0.1" x2="7.085" y1="7.085" x1="7.085"/>
+                    <wire layer="41" y2="-7.085" width="0.1" x2="-7.085" y1="-7.085" x1="7.085"/>
+                    <text layer="25" align="bottom-left" y="7.335" x="-6.96" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="4.46" x="-5.691" layer="21" radius="0.25" width="0.0"/>
+                    <circle y="3.4" x="-3.4" layer="21" radius="0.5" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.788" dy="0.312" y="3.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.788" dy="0.312" y="3.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.788" dy="0.312" y="2.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="1.788" dy="0.312" y="2.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="1.788" dy="0.312" y="1.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="1.788" dy="0.312" y="1.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="1.788" dy="0.312" y="0.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="1.788" dy="0.312" y="0.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-0.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-0.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-1.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-1.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-2.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-2.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-3.25" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-3.75" x="-5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-3.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-3.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-2.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-2.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-1.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-1.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-0.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="1.788" dy="0.312" y="-0.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="1.788" dy="0.312" y="0.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="1.788" dy="0.312" y="0.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="1.788" dy="0.312" y="1.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="1.788" dy="0.312" y="1.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="1.788" dy="0.312" y="2.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="1.788" dy="0.312" y="2.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="1.788" dy="0.312" y="3.25" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="1.788" dy="0.312" y="3.75" x="5.691" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.312" dy="1.788" y="-5.691" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.312" dy="1.788" y="5.691" x="-3.75" rot="R0" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F446RET6_2">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="51" y2="5.0" width="0.15" x2="-5.0" y1="-5.0" x1="-5.0"/>
+                    <wire layer="51" y2="5.0" width="0.15" x2="5.0" y1="5.0" x1="-5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="5.0" y1="5.0" x1="5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="-5.0" y1="-5.0" x1="5.0"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="-4.25" y1="-4.25" x1="-4.25"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="4.25" y1="4.25" x1="-4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="4.25" y1="4.25" x1="4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="-4.25" y1="-4.25" x1="4.25"/>
+                    <wire layer="41" y2="6.635" width="0.1" x2="-6.635" y1="-6.635" x1="-6.635"/>
+                    <wire layer="41" y2="6.635" width="0.1" x2="6.635" y1="6.635" x1="-6.635"/>
+                    <wire layer="41" y2="-6.635" width="0.1" x2="6.635" y1="6.635" x1="6.635"/>
+                    <wire layer="41" y2="-6.635" width="0.1" x2="-6.635" y1="-6.635" x1="6.635"/>
+                    <text layer="25" align="bottom-left" y="7.085" x="-6.885" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="4.46" x="-5.641" layer="21" radius="0.25" width="0.0"/>
+                    <circle y="3.4" x="-3.4" layer="21" radius="0.5" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.488" dy="0.252" y="3.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.488" dy="0.252" y="3.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.488" dy="0.252" y="2.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="1.488" dy="0.252" y="2.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="1.488" dy="0.252" y="1.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="1.488" dy="0.252" y="1.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="1.488" dy="0.252" y="0.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="1.488" dy="0.252" y="0.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-0.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-0.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-1.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-1.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-2.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-2.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-3.25" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-3.75" x="-5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-3.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-3.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-2.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-2.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-1.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-1.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-0.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="1.488" dy="0.252" y="-0.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="1.488" dy="0.252" y="0.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="1.488" dy="0.252" y="0.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="1.488" dy="0.252" y="1.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="1.488" dy="0.252" y="1.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="1.488" dy="0.252" y="2.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="1.488" dy="0.252" y="2.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="1.488" dy="0.252" y="3.25" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="1.488" dy="0.252" y="3.75" x="5.641" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.252" dy="1.488" y="-5.641" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.252" dy="1.488" y="5.641" x="-3.75" rot="R0" cream="yes"/>
+                </package>
+                <package name="STMICROELECTRONICS_STM32F446RET6_3">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="51" y2="5.0" width="0.15" x2="-5.0" y1="-5.0" x1="-5.0"/>
+                    <wire layer="51" y2="5.0" width="0.15" x2="5.0" y1="5.0" x1="-5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="5.0" y1="5.0" x1="5.0"/>
+                    <wire layer="51" y2="-5.0" width="0.15" x2="-5.0" y1="-5.0" x1="5.0"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="-4.25" y1="-4.25" x1="-4.25"/>
+                    <wire layer="21" y2="4.25" width="0.15" x2="4.25" y1="4.25" x1="-4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="4.25" y1="4.25" x1="4.25"/>
+                    <wire layer="21" y2="-4.25" width="0.15" x2="-4.25" y1="-4.25" x1="4.25"/>
+                    <wire layer="41" y2="6.285" width="0.1" x2="-6.285" y1="-6.285" x1="-6.285"/>
+                    <wire layer="41" y2="6.285" width="0.1" x2="6.285" y1="6.285" x1="-6.285"/>
+                    <wire layer="41" y2="-6.285" width="0.1" x2="6.285" y1="6.285" x1="6.285"/>
+                    <wire layer="41" y2="-6.285" width="0.1" x2="-6.285" y1="-6.285" x1="6.285"/>
+                    <text layer="25" align="bottom-left" y="6.585" x="-6.385" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="4.46" x="-5.591" layer="21" radius="0.25" width="0.0"/>
+                    <circle y="3.4" x="-3.4" layer="21" radius="0.5" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="0" dx="1.188" dy="0.212" y="3.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="1.188" dy="0.212" y="3.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="1.188" dy="0.212" y="2.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="1.188" dy="0.212" y="2.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="1.188" dy="0.212" y="1.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="1.188" dy="0.212" y="1.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="1.188" dy="0.212" y="0.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="1.188" dy="0.212" y="0.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-0.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-0.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-1.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-1.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-2.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-2.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-3.25" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-3.75" x="-5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="33" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-3.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="34" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-3.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="35" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-2.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="36" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-2.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="37" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-1.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="38" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-1.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="39" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-0.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="40" stop="yes" roundness="100" dx="1.188" dy="0.212" y="-0.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="41" stop="yes" roundness="100" dx="1.188" dy="0.212" y="0.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="42" stop="yes" roundness="100" dx="1.188" dy="0.212" y="0.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="43" stop="yes" roundness="100" dx="1.188" dy="0.212" y="1.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="44" stop="yes" roundness="100" dx="1.188" dy="0.212" y="1.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="45" stop="yes" roundness="100" dx="1.188" dy="0.212" y="2.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="46" stop="yes" roundness="100" dx="1.188" dy="0.212" y="2.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="47" stop="yes" roundness="100" dx="1.188" dy="0.212" y="3.25" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="48" stop="yes" roundness="100" dx="1.188" dy="0.212" y="3.75" x="5.591" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="29" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="30" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="31" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="32" stop="yes" roundness="100" dx="0.212" dy="1.188" y="-5.591" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="49" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="3.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="50" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="51" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="52" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="53" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="54" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="55" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="56" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="57" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-0.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="58" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-0.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="59" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-1.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="60" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-1.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="61" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-2.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="62" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-2.75" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="63" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-3.25" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="64" stop="yes" roundness="100" dx="0.212" dy="1.188" y="5.591" x="-3.75" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="STMICROELECTRONICS_STM32F446RET6_0_0">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="27.94" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.254" x2="27.94" y1="-5.08" x1="27.94"/>
+                    <wire layer="94" y2="-33.02" width="0.254" x2="0.0" y1="-33.02" x1="27.94"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="27.94" y1="-17.78" x1="27.94"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="27.94" y1="-20.32" x1="27.94"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="27.94" y1="-22.86" x1="27.94"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="27.94" y1="-25.4" x1="27.94"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="27.94" y1="-30.48" x1="27.94"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-35.56" x="0.0" rot="R0" size="2.54">STM32F446RET6</text>
+                    <pin direction="pwr" name="1_VDD" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="2_VDD" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="pwr" name="3_VDD" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="pwr" name="4_VDD" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="pwr" name="VDDA" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="pwr" name="VBAT" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="pwr" name="VCAP_1" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="pwr" name="1_VSS" visible="both" length="middle" y="-17.78" x="33.02" rot="R180"/>
+                    <pin direction="pwr" name="2_VSS" visible="both" length="middle" y="-20.32" x="33.02" rot="R180"/>
+                    <pin direction="pwr" name="3_VSS" visible="both" length="middle" y="-22.86" x="33.02" rot="R180"/>
+                    <pin direction="pwr" name="4_VSS" visible="both" length="middle" y="-25.4" x="33.02" rot="R180"/>
+                    <pin direction="pwr" name="VSSA" visible="both" length="middle" y="-30.48" x="33.02" rot="R180"/>
+                </symbol>
+                <symbol name="STMICROELECTRONICS_STM32F446RET6_0_1">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="0.0" y1="-88.9" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="38.1" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-88.9" width="0.254" x2="38.1" y1="-5.08" x1="38.1"/>
+                    <wire layer="94" y2="-88.9" width="0.254" x2="0.0" y1="-88.9" x1="38.1"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="38.1" y1="-7.62" x1="38.1"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="38.1" y1="-10.16" x1="38.1"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="38.1" y1="-12.7" x1="38.1"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="38.1" y1="-15.24" x1="38.1"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="38.1" y1="-17.78" x1="38.1"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="38.1" y1="-20.32" x1="38.1"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="38.1" y1="-22.86" x1="38.1"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="38.1" y1="-25.4" x1="38.1"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="38.1" y1="-27.94" x1="38.1"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="38.1" y1="-30.48" x1="38.1"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="38.1" y1="-33.02" x1="38.1"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="38.1" y1="-35.56" x1="38.1"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="38.1" y1="-38.1" x1="38.1"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="38.1" y1="-40.64" x1="38.1"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="38.1" y1="-43.18" x1="38.1"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="38.1" y1="-45.72" x1="38.1"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="38.1" y1="-60.96" x1="38.1"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="38.1" y1="-66.04" x1="38.1"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="0.0" y1="-25.4" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="0.0" y1="-27.94" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="0.0" y1="-40.64" x1="0.0"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="0.0" y1="-43.18" x1="0.0"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="0.0" y1="-45.72" x1="0.0"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="38.1" y1="-50.8" x1="38.1"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="0.0" y1="-50.8" x1="0.0"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="0.0" y1="-53.34" x1="0.0"/>
+                    <wire layer="94" y2="-55.88" width="0.15" x2="0.0" y1="-55.88" x1="0.0"/>
+                    <wire layer="94" y2="-58.42" width="0.15" x2="0.0" y1="-58.42" x1="0.0"/>
+                    <wire layer="94" y2="-60.96" width="0.15" x2="0.0" y1="-60.96" x1="0.0"/>
+                    <wire layer="94" y2="-63.5" width="0.15" x2="0.0" y1="-63.5" x1="0.0"/>
+                    <wire layer="94" y2="-66.04" width="0.15" x2="0.0" y1="-66.04" x1="0.0"/>
+                    <wire layer="94" y2="-68.58" width="0.15" x2="0.0" y1="-68.58" x1="0.0"/>
+                    <wire layer="94" y2="-71.12" width="0.15" x2="0.0" y1="-71.12" x1="0.0"/>
+                    <wire layer="94" y2="-73.66" width="0.15" x2="0.0" y1="-73.66" x1="0.0"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="0.0" y1="-76.2" x1="0.0"/>
+                    <wire layer="94" y2="-78.74" width="0.15" x2="0.0" y1="-78.74" x1="0.0"/>
+                    <wire layer="94" y2="-81.28" width="0.15" x2="0.0" y1="-81.28" x1="0.0"/>
+                    <wire layer="94" y2="-83.82" width="0.15" x2="0.0" y1="-83.82" x1="0.0"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="0.0" y1="-86.36" x1="0.0"/>
+                    <wire layer="94" y2="-76.2" width="0.15" x2="38.1" y1="-76.2" x1="38.1"/>
+                    <wire layer="94" y2="-86.36" width="0.15" x2="38.1" y1="-86.36" x1="38.1"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-91.44" x="0.0" rot="R0" size="2.54">STM32F446RET6</text>
+                    <pin direction="io" name="PC0" visible="both" length="middle" y="-7.62" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC1" visible="both" length="middle" y="-10.16" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC2" visible="both" length="middle" y="-12.7" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC3" visible="both" length="middle" y="-15.24" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC4" visible="both" length="middle" y="-17.78" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC5" visible="both" length="middle" y="-20.32" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC6" visible="both" length="middle" y="-22.86" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC7" visible="both" length="middle" y="-25.4" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC8" visible="both" length="middle" y="-27.94" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC9" visible="both" length="middle" y="-30.48" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC10" visible="both" length="middle" y="-33.02" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC11" visible="both" length="middle" y="-35.56" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC12" visible="both" length="middle" y="-38.1" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC13" visible="both" length="middle" y="-40.64" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC14-OSC32_IN" visible="both" length="middle" y="-43.18" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PC15-OSC32_OUT" visible="both" length="middle" y="-45.72" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PH0-OSC_IN" visible="both" length="middle" y="-60.96" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PH1-OSC_OUT" visible="both" length="middle" y="-66.04" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PA0" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="io" name="PA1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="io" name="PA2" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="io" name="PA3" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="io" name="PA4" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="io" name="PA5" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="io" name="PA6" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="io" name="PA7" visible="both" length="middle" y="-25.4" x="-5.08"/>
+                    <pin direction="io" name="PA8" visible="both" length="middle" y="-27.94" x="-5.08"/>
+                    <pin direction="io" name="PA9" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="io" name="PA10" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="io" name="PA11" visible="both" length="middle" y="-35.56" x="-5.08"/>
+                    <pin direction="io" name="PA12" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="io" name="PA13" visible="both" length="middle" y="-40.64" x="-5.08"/>
+                    <pin direction="io" name="PA14" visible="both" length="middle" y="-43.18" x="-5.08"/>
+                    <pin direction="io" name="PA15" visible="both" length="middle" y="-45.72" x="-5.08"/>
+                    <pin direction="io" name="PD2" visible="both" length="middle" y="-50.8" x="43.18" rot="R180"/>
+                    <pin direction="io" name="PB0" visible="both" length="middle" y="-50.8" x="-5.08"/>
+                    <pin direction="io" name="PB1" visible="both" length="middle" y="-53.34" x="-5.08"/>
+                    <pin direction="io" name="PB2" visible="both" length="middle" y="-55.88" x="-5.08"/>
+                    <pin direction="io" name="PB3" visible="both" length="middle" y="-58.42" x="-5.08"/>
+                    <pin direction="io" name="PB4" visible="both" length="middle" y="-60.96" x="-5.08"/>
+                    <pin direction="io" name="PB5" visible="both" length="middle" y="-63.5" x="-5.08"/>
+                    <pin direction="io" name="PB6" visible="both" length="middle" y="-66.04" x="-5.08"/>
+                    <pin direction="io" name="PB7" visible="both" length="middle" y="-68.58" x="-5.08"/>
+                    <pin direction="io" name="PB8" visible="both" length="middle" y="-71.12" x="-5.08"/>
+                    <pin direction="io" name="PB9" visible="both" length="middle" y="-73.66" x="-5.08"/>
+                    <pin direction="io" name="PB10" visible="both" length="middle" y="-76.2" x="-5.08"/>
+                    <pin direction="io" name="PB12" visible="both" length="middle" y="-78.74" x="-5.08"/>
+                    <pin direction="io" name="PB13" visible="both" length="middle" y="-81.28" x="-5.08"/>
+                    <pin direction="io" name="PB14" visible="both" length="middle" y="-83.82" x="-5.08"/>
+                    <pin direction="io" name="PB15" visible="both" length="middle" y="-86.36" x="-5.08"/>
+                    <pin direction="in" name="!RST!" visible="both" length="middle" y="-76.2" x="43.18" rot="R180"/>
+                    <pin direction="in" name="BOOT0" visible="both" length="middle" y="-86.36" x="43.18" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="STMICROELECTRONICS_STM32F446RET6">
+                    <description>MCU 32-bit ARM Cortex M4 RISC 512KB Flash 2.5V/3.3V Medical 64-Pin LQFP Frame</description>
+                    <gates>
+                        <gate name="A" symbol="STMICROELECTRONICS_STM32F446RET6_0_0" x="0"/>
+                        <gate name="B" symbol="STMICROELECTRONICS_STM32F446RET6_0_1" x="47.94"/>
+                    </gates>
+                    <devices>
+                        <device name="STMICROELECTRONICS_STM32F446RET6_0_0" package="STMICROELECTRONICS_STM32F446RET6_0">
+                            <connects>
+                                <connect gate="A" pad="1" pin="VBAT"/>
+                                <connect gate="B" pad="2" pin="PC13"/>
+                                <connect gate="B" pad="3" pin="PC14-OSC32_IN"/>
+                                <connect gate="B" pad="4" pin="PC15-OSC32_OUT"/>
+                                <connect gate="B" pad="5" pin="PH0-OSC_IN"/>
+                                <connect gate="B" pad="6" pin="PH1-OSC_OUT"/>
+                                <connect gate="B" pad="7" pin="!RST!"/>
+                                <connect gate="B" pad="8" pin="PC0"/>
+                                <connect gate="B" pad="9" pin="PC1"/>
+                                <connect gate="B" pad="10" pin="PC2"/>
+                                <connect gate="B" pad="11" pin="PC3"/>
+                                <connect gate="A" pad="12" pin="VSSA"/>
+                                <connect gate="A" pad="13" pin="VDDA"/>
+                                <connect gate="B" pad="14" pin="PA0"/>
+                                <connect gate="B" pad="15" pin="PA1"/>
+                                <connect gate="B" pad="16" pin="PA2"/>
+                                <connect gate="B" pad="17" pin="PA3"/>
+                                <connect gate="A" pad="18" pin="1_VSS"/>
+                                <connect gate="A" pad="19" pin="1_VDD"/>
+                                <connect gate="B" pad="20" pin="PA4"/>
+                                <connect gate="B" pad="21" pin="PA5"/>
+                                <connect gate="B" pad="22" pin="PA6"/>
+                                <connect gate="B" pad="23" pin="PA7"/>
+                                <connect gate="B" pad="24" pin="PC4"/>
+                                <connect gate="B" pad="25" pin="PC5"/>
+                                <connect gate="B" pad="26" pin="PB0"/>
+                                <connect gate="B" pad="27" pin="PB1"/>
+                                <connect gate="B" pad="28" pin="PB2"/>
+                                <connect gate="B" pad="29" pin="PB10"/>
+                                <connect gate="A" pad="30" pin="VCAP_1"/>
+                                <connect gate="A" pad="31" pin="2_VSS"/>
+                                <connect gate="A" pad="32" pin="2_VDD"/>
+                                <connect gate="B" pad="33" pin="PB12"/>
+                                <connect gate="B" pad="34" pin="PB13"/>
+                                <connect gate="B" pad="35" pin="PB14"/>
+                                <connect gate="B" pad="36" pin="PB15"/>
+                                <connect gate="B" pad="37" pin="PC6"/>
+                                <connect gate="B" pad="38" pin="PC7"/>
+                                <connect gate="B" pad="39" pin="PC8"/>
+                                <connect gate="B" pad="40" pin="PC9"/>
+                                <connect gate="B" pad="41" pin="PA8"/>
+                                <connect gate="B" pad="42" pin="PA9"/>
+                                <connect gate="B" pad="43" pin="PA10"/>
+                                <connect gate="B" pad="44" pin="PA11"/>
+                                <connect gate="B" pad="45" pin="PA12"/>
+                                <connect gate="B" pad="46" pin="PA13"/>
+                                <connect gate="A" pad="47" pin="3_VSS"/>
+                                <connect gate="A" pad="48" pin="3_VDD"/>
+                                <connect gate="B" pad="49" pin="PA14"/>
+                                <connect gate="B" pad="50" pin="PA15"/>
+                                <connect gate="B" pad="51" pin="PC10"/>
+                                <connect gate="B" pad="52" pin="PC11"/>
+                                <connect gate="B" pad="53" pin="PC12"/>
+                                <connect gate="B" pad="54" pin="PD2"/>
+                                <connect gate="B" pad="55" pin="PB3"/>
+                                <connect gate="B" pad="56" pin="PB4"/>
+                                <connect gate="B" pad="57" pin="PB5"/>
+                                <connect gate="B" pad="58" pin="PB6"/>
+                                <connect gate="B" pad="59" pin="PB7"/>
+                                <connect gate="B" pad="60" pin="BOOT0"/>
+                                <connect gate="B" pad="61" pin="PB8"/>
+                                <connect gate="B" pad="62" pin="PB9"/>
+                                <connect gate="A" pad="63" pin="4_VSS"/>
+                                <connect gate="A" pad="64" pin="4_VDD"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="ARM Microcontrollers - MCU High-performance and DSP with FP, ARM Cortex-M4 MCU with 512 Kbytes Flash, 180 MHz CPU, Art Accelerator, SDRAM"/>
+                                    <attribute name="ambient_temperature_range_low" value="-40°C"/>
+                                    <attribute name="mfg_package_ident_rev" value="3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-40000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-20000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="ambient_temperature_range_high" value="+85°C"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="497-15376-ND"/>
+                                    <attribute name="frequency" value="180MHz"/>
+                                    <attribute name="number_of_PWM_channels" value="25"/>
+                                    <attribute name="memory_size" value="512KBytes"/>
+                                    <attribute name="number_of_UART_channels" value="6"/>
+                                    <attribute name="max_junction_temp" value="+125°C"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="device_class_L3" value="Microcontrollers"/>
+                                    <attribute name="device_class_L2" value="Embedded Processors and Controllers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="core_architecture" value="ARM Cortex-M4"/>
+                                    <attribute name="memory_type" value="FLASH"/>
+                                    <attribute name="RAM_size" value="128KBytes"/>
+                                    <attribute name="MPN" value="STM32F446RET6"/>
+                                    <attribute name="mouser_part_number" value="511-STM32F446RET6"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="max_supply_voltage" value="3.6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="number_of_A/D_converters" value="3"/>
+                                    <attribute name="data_bus_width" value="32b"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="number_of_ADC_channels" value="16"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="datasheet" value="https://www.st.com/resource/en/datasheet/stm32f446re.pdf"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="number_of_I2C_channels" value="4"/>
+                                    <attribute name="number_of_I/Os" value="50"/>
+                                    <attribute name="number_of_cores" value="1"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="number_of_timers/counters" value="14"/>
+                                    <attribute name="interface" value="I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,I2S,Other"/>
+                                    <attribute name="number_of_SPI_channels" value="4"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.6mm"/>
+                                    <attribute name="mfg_package_ident" value="LQFP64-5W"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="digikey_description" value="IC MCU 32BIT 512KB FLASH 64LQFP"/>
+                                    <attribute name="standoff_height" value="0.05mm"/>
+                                    <attribute name="min_supply_voltage" value="1.65V"/>
+                                    <attribute name="number_of_USB_channels" value="2"/>
+                                    <attribute name="package" value="LQFP64"/>
+                                    <attribute name="mfg_package_ident_component_id" value="ac0a92a8d775d0c0"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F446RET6_0_1" package="STMICROELECTRONICS_STM32F446RET6_1">
+                            <connects>
+                                <connect gate="A" pad="1" pin="VBAT"/>
+                                <connect gate="B" pad="2" pin="PC13"/>
+                                <connect gate="B" pad="3" pin="PC14-OSC32_IN"/>
+                                <connect gate="B" pad="4" pin="PC15-OSC32_OUT"/>
+                                <connect gate="B" pad="5" pin="PH0-OSC_IN"/>
+                                <connect gate="B" pad="6" pin="PH1-OSC_OUT"/>
+                                <connect gate="B" pad="7" pin="!RST!"/>
+                                <connect gate="B" pad="8" pin="PC0"/>
+                                <connect gate="B" pad="9" pin="PC1"/>
+                                <connect gate="B" pad="10" pin="PC2"/>
+                                <connect gate="B" pad="11" pin="PC3"/>
+                                <connect gate="A" pad="12" pin="VSSA"/>
+                                <connect gate="A" pad="13" pin="VDDA"/>
+                                <connect gate="B" pad="14" pin="PA0"/>
+                                <connect gate="B" pad="15" pin="PA1"/>
+                                <connect gate="B" pad="16" pin="PA2"/>
+                                <connect gate="B" pad="17" pin="PA3"/>
+                                <connect gate="A" pad="18" pin="1_VSS"/>
+                                <connect gate="A" pad="19" pin="1_VDD"/>
+                                <connect gate="B" pad="20" pin="PA4"/>
+                                <connect gate="B" pad="21" pin="PA5"/>
+                                <connect gate="B" pad="22" pin="PA6"/>
+                                <connect gate="B" pad="23" pin="PA7"/>
+                                <connect gate="B" pad="24" pin="PC4"/>
+                                <connect gate="B" pad="25" pin="PC5"/>
+                                <connect gate="B" pad="26" pin="PB0"/>
+                                <connect gate="B" pad="27" pin="PB1"/>
+                                <connect gate="B" pad="28" pin="PB2"/>
+                                <connect gate="B" pad="29" pin="PB10"/>
+                                <connect gate="A" pad="30" pin="VCAP_1"/>
+                                <connect gate="A" pad="31" pin="2_VSS"/>
+                                <connect gate="A" pad="32" pin="2_VDD"/>
+                                <connect gate="B" pad="33" pin="PB12"/>
+                                <connect gate="B" pad="34" pin="PB13"/>
+                                <connect gate="B" pad="35" pin="PB14"/>
+                                <connect gate="B" pad="36" pin="PB15"/>
+                                <connect gate="B" pad="37" pin="PC6"/>
+                                <connect gate="B" pad="38" pin="PC7"/>
+                                <connect gate="B" pad="39" pin="PC8"/>
+                                <connect gate="B" pad="40" pin="PC9"/>
+                                <connect gate="B" pad="41" pin="PA8"/>
+                                <connect gate="B" pad="42" pin="PA9"/>
+                                <connect gate="B" pad="43" pin="PA10"/>
+                                <connect gate="B" pad="44" pin="PA11"/>
+                                <connect gate="B" pad="45" pin="PA12"/>
+                                <connect gate="B" pad="46" pin="PA13"/>
+                                <connect gate="A" pad="47" pin="3_VSS"/>
+                                <connect gate="A" pad="48" pin="3_VDD"/>
+                                <connect gate="B" pad="49" pin="PA14"/>
+                                <connect gate="B" pad="50" pin="PA15"/>
+                                <connect gate="B" pad="51" pin="PC10"/>
+                                <connect gate="B" pad="52" pin="PC11"/>
+                                <connect gate="B" pad="53" pin="PC12"/>
+                                <connect gate="B" pad="54" pin="PD2"/>
+                                <connect gate="B" pad="55" pin="PB3"/>
+                                <connect gate="B" pad="56" pin="PB4"/>
+                                <connect gate="B" pad="57" pin="PB5"/>
+                                <connect gate="B" pad="58" pin="PB6"/>
+                                <connect gate="B" pad="59" pin="PB7"/>
+                                <connect gate="B" pad="60" pin="BOOT0"/>
+                                <connect gate="B" pad="61" pin="PB8"/>
+                                <connect gate="B" pad="62" pin="PB9"/>
+                                <connect gate="A" pad="63" pin="4_VSS"/>
+                                <connect gate="A" pad="64" pin="4_VDD"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="ARM Microcontrollers - MCU High-performance and DSP with FP, ARM Cortex-M4 MCU with 512 Kbytes Flash, 180 MHz CPU, Art Accelerator, SDRAM"/>
+                                    <attribute name="ambient_temperature_range_low" value="-40°C"/>
+                                    <attribute name="mfg_package_ident_rev" value="3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-40000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-20000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="ambient_temperature_range_high" value="+85°C"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="497-15376-ND"/>
+                                    <attribute name="frequency" value="180MHz"/>
+                                    <attribute name="number_of_PWM_channels" value="25"/>
+                                    <attribute name="memory_size" value="512KBytes"/>
+                                    <attribute name="number_of_UART_channels" value="6"/>
+                                    <attribute name="max_junction_temp" value="+125°C"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="device_class_L3" value="Microcontrollers"/>
+                                    <attribute name="device_class_L2" value="Embedded Processors and Controllers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="core_architecture" value="ARM Cortex-M4"/>
+                                    <attribute name="memory_type" value="FLASH"/>
+                                    <attribute name="RAM_size" value="128KBytes"/>
+                                    <attribute name="MPN" value="STM32F446RET6"/>
+                                    <attribute name="mouser_part_number" value="511-STM32F446RET6"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="max_supply_voltage" value="3.6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="number_of_A/D_converters" value="3"/>
+                                    <attribute name="data_bus_width" value="32b"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="number_of_ADC_channels" value="16"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="datasheet" value="https://www.st.com/resource/en/datasheet/stm32f446re.pdf"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="number_of_I2C_channels" value="4"/>
+                                    <attribute name="number_of_I/Os" value="50"/>
+                                    <attribute name="number_of_cores" value="1"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="number_of_timers/counters" value="14"/>
+                                    <attribute name="interface" value="I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,I2S,Other"/>
+                                    <attribute name="number_of_SPI_channels" value="4"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.6mm"/>
+                                    <attribute name="mfg_package_ident" value="LQFP64-5W"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="digikey_description" value="IC MCU 32BIT 512KB FLASH 64LQFP"/>
+                                    <attribute name="standoff_height" value="0.05mm"/>
+                                    <attribute name="min_supply_voltage" value="1.65V"/>
+                                    <attribute name="number_of_USB_channels" value="2"/>
+                                    <attribute name="package" value="LQFP64"/>
+                                    <attribute name="mfg_package_ident_component_id" value="ac0a92a8d775d0c0"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F446RET6_0_2" package="STMICROELECTRONICS_STM32F446RET6_2">
+                            <connects>
+                                <connect gate="A" pad="1" pin="VBAT"/>
+                                <connect gate="B" pad="2" pin="PC13"/>
+                                <connect gate="B" pad="3" pin="PC14-OSC32_IN"/>
+                                <connect gate="B" pad="4" pin="PC15-OSC32_OUT"/>
+                                <connect gate="B" pad="5" pin="PH0-OSC_IN"/>
+                                <connect gate="B" pad="6" pin="PH1-OSC_OUT"/>
+                                <connect gate="B" pad="7" pin="!RST!"/>
+                                <connect gate="B" pad="8" pin="PC0"/>
+                                <connect gate="B" pad="9" pin="PC1"/>
+                                <connect gate="B" pad="10" pin="PC2"/>
+                                <connect gate="B" pad="11" pin="PC3"/>
+                                <connect gate="A" pad="12" pin="VSSA"/>
+                                <connect gate="A" pad="13" pin="VDDA"/>
+                                <connect gate="B" pad="14" pin="PA0"/>
+                                <connect gate="B" pad="15" pin="PA1"/>
+                                <connect gate="B" pad="16" pin="PA2"/>
+                                <connect gate="B" pad="17" pin="PA3"/>
+                                <connect gate="A" pad="18" pin="1_VSS"/>
+                                <connect gate="A" pad="19" pin="1_VDD"/>
+                                <connect gate="B" pad="20" pin="PA4"/>
+                                <connect gate="B" pad="21" pin="PA5"/>
+                                <connect gate="B" pad="22" pin="PA6"/>
+                                <connect gate="B" pad="23" pin="PA7"/>
+                                <connect gate="B" pad="24" pin="PC4"/>
+                                <connect gate="B" pad="25" pin="PC5"/>
+                                <connect gate="B" pad="26" pin="PB0"/>
+                                <connect gate="B" pad="27" pin="PB1"/>
+                                <connect gate="B" pad="28" pin="PB2"/>
+                                <connect gate="B" pad="29" pin="PB10"/>
+                                <connect gate="A" pad="30" pin="VCAP_1"/>
+                                <connect gate="A" pad="31" pin="2_VSS"/>
+                                <connect gate="A" pad="32" pin="2_VDD"/>
+                                <connect gate="B" pad="33" pin="PB12"/>
+                                <connect gate="B" pad="34" pin="PB13"/>
+                                <connect gate="B" pad="35" pin="PB14"/>
+                                <connect gate="B" pad="36" pin="PB15"/>
+                                <connect gate="B" pad="37" pin="PC6"/>
+                                <connect gate="B" pad="38" pin="PC7"/>
+                                <connect gate="B" pad="39" pin="PC8"/>
+                                <connect gate="B" pad="40" pin="PC9"/>
+                                <connect gate="B" pad="41" pin="PA8"/>
+                                <connect gate="B" pad="42" pin="PA9"/>
+                                <connect gate="B" pad="43" pin="PA10"/>
+                                <connect gate="B" pad="44" pin="PA11"/>
+                                <connect gate="B" pad="45" pin="PA12"/>
+                                <connect gate="B" pad="46" pin="PA13"/>
+                                <connect gate="A" pad="47" pin="3_VSS"/>
+                                <connect gate="A" pad="48" pin="3_VDD"/>
+                                <connect gate="B" pad="49" pin="PA14"/>
+                                <connect gate="B" pad="50" pin="PA15"/>
+                                <connect gate="B" pad="51" pin="PC10"/>
+                                <connect gate="B" pad="52" pin="PC11"/>
+                                <connect gate="B" pad="53" pin="PC12"/>
+                                <connect gate="B" pad="54" pin="PD2"/>
+                                <connect gate="B" pad="55" pin="PB3"/>
+                                <connect gate="B" pad="56" pin="PB4"/>
+                                <connect gate="B" pad="57" pin="PB5"/>
+                                <connect gate="B" pad="58" pin="PB6"/>
+                                <connect gate="B" pad="59" pin="PB7"/>
+                                <connect gate="B" pad="60" pin="BOOT0"/>
+                                <connect gate="B" pad="61" pin="PB8"/>
+                                <connect gate="B" pad="62" pin="PB9"/>
+                                <connect gate="A" pad="63" pin="4_VSS"/>
+                                <connect gate="A" pad="64" pin="4_VDD"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="ARM Microcontrollers - MCU High-performance and DSP with FP, ARM Cortex-M4 MCU with 512 Kbytes Flash, 180 MHz CPU, Art Accelerator, SDRAM"/>
+                                    <attribute name="ambient_temperature_range_low" value="-40°C"/>
+                                    <attribute name="mfg_package_ident_rev" value="3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-40000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-20000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="ambient_temperature_range_high" value="+85°C"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="497-15376-ND"/>
+                                    <attribute name="frequency" value="180MHz"/>
+                                    <attribute name="number_of_PWM_channels" value="25"/>
+                                    <attribute name="memory_size" value="512KBytes"/>
+                                    <attribute name="number_of_UART_channels" value="6"/>
+                                    <attribute name="max_junction_temp" value="+125°C"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="device_class_L3" value="Microcontrollers"/>
+                                    <attribute name="device_class_L2" value="Embedded Processors and Controllers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="core_architecture" value="ARM Cortex-M4"/>
+                                    <attribute name="memory_type" value="FLASH"/>
+                                    <attribute name="RAM_size" value="128KBytes"/>
+                                    <attribute name="MPN" value="STM32F446RET6"/>
+                                    <attribute name="mouser_part_number" value="511-STM32F446RET6"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="max_supply_voltage" value="3.6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="number_of_A/D_converters" value="3"/>
+                                    <attribute name="data_bus_width" value="32b"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="number_of_ADC_channels" value="16"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="datasheet" value="https://www.st.com/resource/en/datasheet/stm32f446re.pdf"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="number_of_I2C_channels" value="4"/>
+                                    <attribute name="number_of_I/Os" value="50"/>
+                                    <attribute name="number_of_cores" value="1"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="number_of_timers/counters" value="14"/>
+                                    <attribute name="interface" value="I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,I2S,Other"/>
+                                    <attribute name="number_of_SPI_channels" value="4"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.6mm"/>
+                                    <attribute name="mfg_package_ident" value="LQFP64-5W"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="digikey_description" value="IC MCU 32BIT 512KB FLASH 64LQFP"/>
+                                    <attribute name="standoff_height" value="0.05mm"/>
+                                    <attribute name="min_supply_voltage" value="1.65V"/>
+                                    <attribute name="number_of_USB_channels" value="2"/>
+                                    <attribute name="package" value="LQFP64"/>
+                                    <attribute name="mfg_package_ident_component_id" value="ac0a92a8d775d0c0"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="STMICROELECTRONICS_STM32F446RET6_0_3" package="STMICROELECTRONICS_STM32F446RET6_3">
+                            <connects>
+                                <connect gate="A" pad="1" pin="VBAT"/>
+                                <connect gate="B" pad="2" pin="PC13"/>
+                                <connect gate="B" pad="3" pin="PC14-OSC32_IN"/>
+                                <connect gate="B" pad="4" pin="PC15-OSC32_OUT"/>
+                                <connect gate="B" pad="5" pin="PH0-OSC_IN"/>
+                                <connect gate="B" pad="6" pin="PH1-OSC_OUT"/>
+                                <connect gate="B" pad="7" pin="!RST!"/>
+                                <connect gate="B" pad="8" pin="PC0"/>
+                                <connect gate="B" pad="9" pin="PC1"/>
+                                <connect gate="B" pad="10" pin="PC2"/>
+                                <connect gate="B" pad="11" pin="PC3"/>
+                                <connect gate="A" pad="12" pin="VSSA"/>
+                                <connect gate="A" pad="13" pin="VDDA"/>
+                                <connect gate="B" pad="14" pin="PA0"/>
+                                <connect gate="B" pad="15" pin="PA1"/>
+                                <connect gate="B" pad="16" pin="PA2"/>
+                                <connect gate="B" pad="17" pin="PA3"/>
+                                <connect gate="A" pad="18" pin="1_VSS"/>
+                                <connect gate="A" pad="19" pin="1_VDD"/>
+                                <connect gate="B" pad="20" pin="PA4"/>
+                                <connect gate="B" pad="21" pin="PA5"/>
+                                <connect gate="B" pad="22" pin="PA6"/>
+                                <connect gate="B" pad="23" pin="PA7"/>
+                                <connect gate="B" pad="24" pin="PC4"/>
+                                <connect gate="B" pad="25" pin="PC5"/>
+                                <connect gate="B" pad="26" pin="PB0"/>
+                                <connect gate="B" pad="27" pin="PB1"/>
+                                <connect gate="B" pad="28" pin="PB2"/>
+                                <connect gate="B" pad="29" pin="PB10"/>
+                                <connect gate="A" pad="30" pin="VCAP_1"/>
+                                <connect gate="A" pad="31" pin="2_VSS"/>
+                                <connect gate="A" pad="32" pin="2_VDD"/>
+                                <connect gate="B" pad="33" pin="PB12"/>
+                                <connect gate="B" pad="34" pin="PB13"/>
+                                <connect gate="B" pad="35" pin="PB14"/>
+                                <connect gate="B" pad="36" pin="PB15"/>
+                                <connect gate="B" pad="37" pin="PC6"/>
+                                <connect gate="B" pad="38" pin="PC7"/>
+                                <connect gate="B" pad="39" pin="PC8"/>
+                                <connect gate="B" pad="40" pin="PC9"/>
+                                <connect gate="B" pad="41" pin="PA8"/>
+                                <connect gate="B" pad="42" pin="PA9"/>
+                                <connect gate="B" pad="43" pin="PA10"/>
+                                <connect gate="B" pad="44" pin="PA11"/>
+                                <connect gate="B" pad="45" pin="PA12"/>
+                                <connect gate="B" pad="46" pin="PA13"/>
+                                <connect gate="A" pad="47" pin="3_VSS"/>
+                                <connect gate="A" pad="48" pin="3_VDD"/>
+                                <connect gate="B" pad="49" pin="PA14"/>
+                                <connect gate="B" pad="50" pin="PA15"/>
+                                <connect gate="B" pad="51" pin="PC10"/>
+                                <connect gate="B" pad="52" pin="PC11"/>
+                                <connect gate="B" pad="53" pin="PC12"/>
+                                <connect gate="B" pad="54" pin="PD2"/>
+                                <connect gate="B" pad="55" pin="PB3"/>
+                                <connect gate="B" pad="56" pin="PB4"/>
+                                <connect gate="B" pad="57" pin="PB5"/>
+                                <connect gate="B" pad="58" pin="PB6"/>
+                                <connect gate="B" pad="59" pin="PB7"/>
+                                <connect gate="B" pad="60" pin="BOOT0"/>
+                                <connect gate="B" pad="61" pin="PB8"/>
+                                <connect gate="B" pad="62" pin="PB9"/>
+                                <connect gate="A" pad="63" pin="4_VSS"/>
+                                <connect gate="A" pad="64" pin="4_VDD"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_description" value="ARM Microcontrollers - MCU High-performance and DSP with FP, ARM Cortex-M4 MCU with 512 Kbytes Flash, 180 MHz CPU, Art Accelerator, SDRAM"/>
+                                    <attribute name="ambient_temperature_range_low" value="-40°C"/>
+                                    <attribute name="mfg_package_ident_rev" value="3"/>
+                                    <attribute name="footprint_parameters_1" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":550000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":450000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":10000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":500000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"A (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_3" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":150000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":250000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-40000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":100000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"C (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="footprint_parameters_2" value='{"fp_type":"MQFP","params":{"N1":{"nom":16,"long name":"Leads on long side","min":null,"max":null,"short name":"N1","type":"count"},"N2":{"nom":16,"long name":"Leads on wide side","min":null,"max":null,"short name":"N2","type":"count"},"A":{"nom":false,"long name":"Height","min":false,"max":1600000,"short name":"A","type":"measurement"},"A1":{"nom":false,"long name":"Package clearance","min":50000,"max":150000,"short name":"A1","type":"measurement"},"A2":{"nom":1400000,"long name":"Package height","min":1350000,"max":1450000,"short name":"A2","type":"measurement"},"D":{"nom":12000000,"long name":"Length /w leads","min":false,"max":false,"short name":"D","type":"measurement"},"D1":{"nom":10000000,"long name":"Package length","min":false,"max":false,"short name":"D1","type":"measurement"},"E":{"nom":12000000,"long name":"Width /w leads","min":false,"max":false,"short name":"E","type":"measurement"},"E1":{"nom":10000000,"long name":"Package width","min":false,"max":false,"short name":"E1","type":"measurement"},"B":{"nom":220000,"long name":"Lead width","min":170000,"max":270000,"short name":"B","type":"measurement"},"C":{"nom":false,"long name":"Lead thickness","min":90000,"max":200000,"short name":"C","type":"measurement"},"L":{"nom":600000,"long name":"Lead foot length","min":450000,"max":750000,"short name":"L","type":"measurement"},"e":{"nom":500000,"long name":"Lead pitch","min":null,"max":null,"short name":"e","type":"measurement"},"PHI":{"nom":false,"long name":"Lead angle","min":0,"max":70,"short name":"PHI","type":"measurement"},"HT":{"default":"No","long name":"Thermal pad","type":"multichoiceparent","short name":"HT","children":[]},"offset x":{"nom":0,"long name":"X Center offset","min":null,"max":null,"short name":"offset x","type":"measurement"},"offset y":{"nom":0,"long name":"Y Center offset","min":null,"max":null,"short name":"offset y","type":"measurement"},"LS":{"default":"Rounded rectangle","long name":"Land shape","type":"multichoice","short name":"LS"},"LS1":{"default":"Rectangle","long name":"Land shape (Pin 1)","type":"multichoice","short name":"LS1"},"solder toe":{"nom":350000,"long name":"Solder fillet (toe)","min":null,"max":null,"short name":"solder toe","type":"fixedmeasurement"},"solder heel":{"nom":350000,"long name":"Solder fillet (heel)","min":null,"max":null,"short name":"solder heel","type":"fixedmeasurement"},"solder side":{"nom":-20000,"long name":"Solder fillet (side)","min":null,"max":null,"short name":"solder side","type":"fixedmeasurement"},"courtyard":{"nom":250000,"long name":"Courtyard","min":null,"max":null,"short name":"courtyard","type":"fixedmeasurement"},"SF":{"default":"B (&lt;= 0.625mm pitch)","long name":"Packing level","type":"multichoiceparent","short name":"SF","help":"http://support.upverter.com/customer/portal/articles/978783-what-is-a-footprint-packing-level","children":["solder toe","solder heel","solder side","courtyard"]}}}'/>
+                                    <attribute name="ambient_temperature_range_high" value="+85°C"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="497-15376-ND"/>
+                                    <attribute name="frequency" value="180MHz"/>
+                                    <attribute name="number_of_PWM_channels" value="25"/>
+                                    <attribute name="memory_size" value="512KBytes"/>
+                                    <attribute name="number_of_UART_channels" value="6"/>
+                                    <attribute name="max_junction_temp" value="+125°C"/>
+                                    <attribute name="temperature_range_high" value="+85°C"/>
+                                    <attribute name="device_class_L3" value="Microcontrollers"/>
+                                    <attribute name="device_class_L2" value="Embedded Processors and Controllers"/>
+                                    <attribute name="device_class_L1" value="Integrated Circuits (ICs)"/>
+                                    <attribute name="core_architecture" value="ARM Cortex-M4"/>
+                                    <attribute name="memory_type" value="FLASH"/>
+                                    <attribute name="RAM_size" value="128KBytes"/>
+                                    <attribute name="MPN" value="STM32F446RET6"/>
+                                    <attribute name="mouser_part_number" value="511-STM32F446RET6"/>
+                                    <attribute name="MF" value="STMicroelectronics"/>
+                                    <attribute name="max_supply_voltage" value="3.6V"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="number_of_A/D_converters" value="3"/>
+                                    <attribute name="data_bus_width" value="32b"/>
+                                    <attribute name="automotive" value="No"/>
+                                    <attribute name="number_of_ADC_channels" value="16"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="datasheet" value="https://www.st.com/resource/en/datasheet/stm32f446re.pdf"/>
+                                    <attribute name="mfg_package_ident_date" value="0"/>
+                                    <attribute name="number_of_I2C_channels" value="4"/>
+                                    <attribute name="number_of_I/Os" value="50"/>
+                                    <attribute name="number_of_cores" value="1"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="verification_version" value="0.0.0.3"/>
+                                    <attribute name="number_of_timers/counters" value="14"/>
+                                    <attribute name="interface" value="I2C,SPI,UART,USART,CAN,USB,LIN,IrDA,I2S,Other"/>
+                                    <attribute name="number_of_SPI_channels" value="4"/>
+                                    <attribute name="lead_free" value="Yes"/>
+                                    <attribute name="height" value="1.6mm"/>
+                                    <attribute name="mfg_package_ident" value="LQFP64-5W"/>
+                                    <attribute name="footprint_variant_name_0" value="Recommended_Land_Pattern"/>
+                                    <attribute name="footprint_variant_name_1" value="IPC_A"/>
+                                    <attribute name="footprint_variant_name_2" value="IPC_B"/>
+                                    <attribute name="footprint_variant_name_3" value="IPC_C"/>
+                                    <attribute name="digikey_description" value="IC MCU 32BIT 512KB FLASH 64LQFP"/>
+                                    <attribute name="standoff_height" value="0.05mm"/>
+                                    <attribute name="min_supply_voltage" value="1.65V"/>
+                                    <attribute name="number_of_USB_channels" value="2"/>
+                                    <attribute name="package" value="LQFP64"/>
+                                    <attribute name="mfg_package_ident_component_id" value="ac0a92a8d775d0c0"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
