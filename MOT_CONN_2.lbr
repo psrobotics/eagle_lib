@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,27 +73,27 @@
 </layers>
 <library>
 <packages>
-<package name="MOT1_COMBINED_F">
-<smd name="M1_B" x="-2" y="2.5" dx="5" dy="3" layer="1"/>
-<smd name="M2_B" x="2" y="-2.5" dx="5" dy="3" layer="1"/>
-<smd name="M1_A" x="-2" y="9.5" dx="5" dy="3" layer="1"/>
-<smd name="M2_A" x="2" y="-9.5" dx="5" dy="3" layer="1"/>
-<wire x1="-4.826" y1="11.303" x2="1.016" y2="11.303" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="11.303" x2="1.016" y2="7.747" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="7.747" x2="-4.826" y2="7.747" width="0.1524" layer="21"/>
-<wire x1="-4.826" y1="7.747" x2="-4.826" y2="11.303" width="0.1524" layer="21"/>
-<wire x1="-4.826" y1="4.318" x2="1.016" y2="4.318" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="4.318" x2="1.016" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.762" x2="-4.826" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-4.826" y1="0.762" x2="-4.826" y2="4.318" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-0.6985" x2="4.826" y2="-0.6985" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-0.6985" x2="4.826" y2="-4.2545" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-4.2545" x2="-1.016" y2="-4.2545" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-4.2545" x2="-1.016" y2="-0.6985" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-7.6835" x2="4.826" y2="-7.6835" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-7.6835" x2="4.826" y2="-11.2395" width="0.1524" layer="21"/>
-<wire x1="4.826" y1="-11.2395" x2="-1.016" y2="-11.2395" width="0.1524" layer="21"/>
-<wire x1="-1.016" y1="-11.2395" x2="-1.016" y2="-7.6835" width="0.1524" layer="21"/>
+<package name="MOT1_COMBINED_F1">
+<smd name="M1_B" x="-2" y="2.881" dx="5" dy="4.572" layer="1"/>
+<smd name="M2_B" x="2" y="-2.881" dx="5" dy="4.572" layer="1"/>
+<smd name="M1_A" x="-2" y="9.5" dx="5" dy="4.572" layer="1"/>
+<smd name="M2_A" x="2" y="-9.5" dx="5" dy="4.572" layer="1"/>
+<wire x1="-4.826" y1="11.938" x2="1.016" y2="11.938" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="11.938" x2="1.016" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="6.985" x2="-4.826" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="6.985" x2="-4.826" y2="11.938" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="5.334" x2="1.016" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="5.334" x2="1.016" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.381" x2="-4.826" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="0.381" x2="-4.826" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-0.4445" x2="4.826" y2="-0.4445" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-0.4445" x2="4.826" y2="-5.3975" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-5.3975" x2="-1.016" y2="-5.3975" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-5.3975" x2="-1.016" y2="-0.4445" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-7.0485" x2="4.826" y2="-7.0485" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-7.0485" x2="4.826" y2="-12.0015" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-12.0015" x2="-1.016" y2="-12.0015" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-12.0015" x2="-1.016" y2="-7.0485" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -111,6 +111,24 @@ ARR</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="MOT1_COMBINE">
+<gates>
+<gate name="G$1" symbol="MOT1_COMBINE_S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOT1_COMBINED_F1">
+<connects>
+<connect gate="G$1" pin="M1_A" pad="M1_A"/>
+<connect gate="G$1" pin="M1_B" pad="M1_B"/>
+<connect gate="G$1" pin="M2_A" pad="M2_A"/>
+<connect gate="G$1" pin="M2_B" pad="M2_B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
